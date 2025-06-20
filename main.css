@@ -1,0 +1,222 @@
+html {
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+}
+
+#arc {
+  float: left;
+  height: 120px;
+  margin-left: 10px;
+}
+
+#um {
+  float: right;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+#quick-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+#quick-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.section-alt {
+  background-color: #e8f1f9;
+  /* padding: 2px 0; lets reduce it: */ 
+    padding: 2px 2px;
+}
+
+
+.content {
+  margin: 0 auto;
+  max-width: 1035px;
+  padding: 10px 25px;
+}
+
+#abstract {
+  text-align: justify;
+}
+
+#authors {
+  list-style-type: none;
+  padding: 0;
+}
+
+#authors li {
+  display: inline-flex;
+  margin: 5px 20px 25px 20px;
+  white-space: nowrap;
+}
+
+#authors li a, #acknowledgments-text a, #affiliation a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#authors li a:hover, #acknowledgments-text a:hover, #affiliation a:hover {
+  text-decoration: underline;
+}
+
+.author-img-container img {
+  border-radius: 100px;
+  height: 120px;
+  width: 120px;
+}
+
+#affiliation {
+  margin: 30px 0;
+}
+
+#um-vertical {
+  width: 200px;
+}
+
+#thumbnails {
+  list-style-type: none;
+  padding: 0;
+}
+
+#thumbnails li {
+  display: inline;
+}
+
+#downloads {
+  list-style-type: none;
+  padding: 0;
+}
+
+#acknowledgments-text {
+  margin-bottom: 50px;
+}
+
+.example-instance{
+  text-align: left;
+  border-radius: 15px;
+  border: 4px dashed #a0e5aa;
+}
+
+.example-hr {
+  border: 2px dashed #a0e5aa;
+  width: 96%;
+  margin-bottom: 10px;
+}
+
+.example-question {
+  padding-left: 20px;
+  font-size: 17px;
+  line-height: 0;
+}
+
+.example-answer {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 1.1;
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
+.evidence-button {
+  background-color: white;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.5);
+  color: rgb(65, 108, 224);
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+
+.evidence-button:hover {
+  color: rgb(109, 165, 238);
+}
+
+.Qlabel {
+  color: rgb(28, 116, 33);
+}
+
+.Alabel {
+  color: rgb(119, 52, 26);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #00274c; /* UMich Blue */
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffcb05; /* UMich Maize */
+  color: #00274c;
+}
+.slogan {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #444;
+  text-align: center;
+}
+
+.cta-button.small {
+  font-size: 16px;
+  padding: 8px 18px;
+}
+
+.section-lightgray {
+  background-color: #f8f9fa;
+}
+
+.lab-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.lab-logos img {
+  height: 60px; /* consistent height */
+  object-fit: contain;
+}
